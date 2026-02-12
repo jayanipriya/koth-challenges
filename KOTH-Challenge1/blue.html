@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Blue Team Defense Panel</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="login-box">
+  <h2>Blue Team Control Center</h2>
+
+  <button onclick="enableGenericErrors()">Enable Generic Error Messages</button>
+  <button onclick="enableRateLimit()">Enable Rate Limiting</button>
+  <button onclick="resetAdminPassword()">Reset Admin Password</button>
+  <button onclick="viewLogs()">View Login Logs</button>
+
+  <hr>
+
+  <div id="logArea" style="color:lime; text-align:left;"></div>
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
